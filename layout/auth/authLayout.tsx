@@ -17,7 +17,7 @@ function AuthLayout({
     const { setNamePageCurrent } = usePageCurrentContext();
 
     useEffect(() => {
-        setNamePageCurrent('Template Front');
+        setNamePageCurrent('Template');
     // eslint-disable-next-line react-hooks/exhaustive-deps
     }, []);
 

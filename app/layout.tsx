@@ -23,7 +23,7 @@ function RootLayout({ children }: RootLayoutProps) {
         <html lang="es">
             <head>
                 <title>Servicio de Administración Tributaria de Quintana Roo</title>
-                <meta name="description" content="Template Front" />
+                <meta name="description" content="Template" />
             </head>
             <body>
                 <ThemeProvider>

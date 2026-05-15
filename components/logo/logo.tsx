@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import { mergeClasses } from 'minimal-shared/utils';
 import Link from 'next/link';
 import useLogo from '@/components/logo/hooks';

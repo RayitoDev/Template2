@@ -1,4 +1,4 @@
-# Proyecto Template Front
+# Proyecto Template
 
 Este proyecto es una plantilla fundamental de front-end, construida con Next.js 15 y React 19, diseñada para una implementación rápida y reutilización en diversas aplicaciones web. Viene preconfigurado con una selección de librerías esenciales y una estructura de directorio bien organizada para iniciar tu desarrollo.
 

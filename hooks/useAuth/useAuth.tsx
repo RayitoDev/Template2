@@ -127,6 +127,7 @@ export const useAuth = () => {
     };
 
     useEffect(() => {
+        //Comentar si se esta trabajando sin apis login y user
         if (!isSessionValid()) {
             clearSession();
             router.push('/login');

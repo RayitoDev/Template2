@@ -1,11 +1,12 @@
 import HomePage from '@/page/dashboard/home';
-import { AuthGuard } from '@/hooks/useAuth';
+// import { AuthGuard } from '@/hooks/useAuth';
 
 function Page() {
     return (
-        <AuthGuard>
-            <HomePage />
-        </AuthGuard>
+    //AuthGuard proteje la pagina (sin token regresa a login)
+        // <AuthGuard>
+        <HomePage />
+        // </AuthGuard>
     );
 }
 

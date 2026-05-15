@@ -8,6 +8,7 @@ type Props = {
     children: React.ReactNode;
 };
 
+//AuthGuard proteje la pagina (sin token regresa a login)
 export default function AuthGuard({ children }: Props) {
 
     const { isAuthenticated } = useAuth();

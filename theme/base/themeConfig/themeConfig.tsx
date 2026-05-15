@@ -3,24 +3,25 @@ import type ThemeConfigProps from '@/theme/base/themeConfig/types';
 const themeConfig: ThemeConfigProps = {
     classesPrefix: 'minimal',
     fontFamily: {
-        primary: 'DM Sans Variable',
-        secondary: 'Barlow',
+        primary: 'Inter',
+        secondary: 'Poppins',
     },
     palette: {
         primary: {
-            lighter: '#F8D7DD',
-            light: '#D94A6A',
-            main: '#AB0A3D',
-            dark: '#7A092C',
-            darker: '#440412',
+            lighter: '#D1FAE5',
+            light: '#6EE7B7',
+            main: '#10B981',
+            dark: '#047857',
+            darker: '#064E3B',
             contrastText: '#FFFFFF',
         },
+
         secondary: {
-            lighter: '#DBEAFE',    
-            light:   '#60A5FA',    
-            main:    '#2563EB',   
-            dark:    '#1E40AF',   
-            darker:  '#1E3A8A',    
+            lighter: '#FFEDD5',
+            light: '#FDBA74',
+            main: '#F97316',
+            dark: '#C2410C',
+            darker: '#7C2D12',
             contrastText: '#FFFFFF',
         },
         info: {

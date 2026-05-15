@@ -1,7 +1,21 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  /* config options here */
+    output: 'export',
+    trailingSlash: true,
+    basePath: '/template-front',
+    images: {
+        path: '/img',
+        unoptimized: true,
+        remotePatterns: [
+            {
+                protocol: 'https',
+                hostname: 'satq.qroo.gob.mx',
+                port: '',
+                pathname: '/logos/**',
+            },
+        ],
+    },
 };
 
 export default nextConfig;

@@ -22,7 +22,7 @@ function AccountPopover({ data = [], sx, ...other }: AccountPopoverProps) {
             return user?.data?.user.name;
         } else {
             //En un proyecto real esto debería ser: return ''. Se agregó el nombre únicamente porque eFirma no consume ninguna API.
-            return 'Juan Perez Lopez';
+            return 'Texto de Ejemplo';
         };
     };
 
